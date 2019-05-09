@@ -20,7 +20,7 @@ import java.util.Map;
  * 只有这个组件是容器中的组件，才能使用容器提供的功能
  */
 //@PropertySource(value = {"classpath:person.properties"})  //导入外部配置文件
-@Component //将相面这行加载到容器中
+@Component //将下面这行加载到容器中
 @ConfigurationProperties(prefix = "person")
 @Validated  //数据校验
 public class Person {
