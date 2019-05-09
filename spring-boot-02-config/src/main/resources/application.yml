@@ -1,5 +1,9 @@
 #server:
 #  port: 8080
+#这一句是启用下面文档块的配置
+#spring:
+#  profiles:
+#    active: dev
 #person:
 #  lastName: 张三
 #  age: 18
@@ -12,3 +16,16 @@
 #  dog:
 #   name: 小狗
 #   age: 1
+
+#三个-作为文档块分隔，上面的是document1，下面的是document2
+---
+server:
+  port: 8081
+##配置当前文档块的配置是什么环境下的
+spring:
+  profiles: dev
+---
+server:
+  port: 8082
+spring:
+  profiles: prod
