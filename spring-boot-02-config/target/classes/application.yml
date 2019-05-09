@@ -1,0 +1,14 @@
+#server:
+#  port: 8080
+#person:
+#  lastName: 张三
+#  age: 18
+#  boss: false
+#  birth: 2018/05/08
+#  maps: {k1: v1,k2: 12}
+#  lists:
+#    - lisi
+#    - zhaoliu
+#  dog:
+#   name: 小狗
+#   age: 1
