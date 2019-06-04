@@ -1,0 +1,32 @@
+2019-06-04 11:11:33.252 ERROR 26960 --- [main] o.s.b.l.LoggingApplicationListener       : Cannot set level: trace  for 'com.sy'
+2019-06-04 11:11:33.824  INFO 26960 --- [main] c.s.Springboot03LoggingApplicationTests  : Starting Springboot03LoggingApplicationTests on DESKTOP-TS2BL9L with PID 26960 (started by SY in D:\work\space\IdeaWorkSpace\SpringBoot\springboot-03-logging)
+2019-06-04 11:11:33.826  INFO 26960 --- [main] c.s.Springboot03LoggingApplicationTests  : No active profile set, falling back to default profiles: default
+2019-06-04 11:11:34.271  INFO 26960 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6a2f6f80: startup date [Tue Jun 04 11:11:34 CST 2019]; root of context hierarchy
+2019-06-04 11:11:38.893  INFO 26960 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6a2f6f80: startup date [Tue Jun 04 11:11:34 CST 2019]; root of context hierarchy
+2019-06-04 11:11:39.050  INFO 26960 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-04 11:11:39.052  INFO 26960 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-04 11:11:39.139  INFO 26960 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-04 11:11:39.140  INFO 26960 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-04 11:11:39.265  INFO 26960 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-04 11:11:39.721  INFO 26960 --- [main] c.s.Springboot03LoggingApplicationTests  : Started Springboot03LoggingApplicationTests in 7.06 seconds (JVM running for 8.815)
+2019-06-04 11:11:39.891  INFO 26960 --- [main] c.s.Springboot03LoggingApplicationTests  : 这是info日志
+2019-06-04 11:11:39.893  WARN 26960 --- [main] c.s.Springboot03LoggingApplicationTests  : 这是warn日志
+2019-06-04 11:11:39.896 ERROR 26960 --- [main] c.s.Springboot03LoggingApplicationTests  : 这是error日志
+2019-06-04 11:11:39.972  INFO 26960 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@6a2f6f80: startup date [Tue Jun 04 11:11:34 CST 2019]; root of context hierarchy
+2019-06-04 11:12:10.956  INFO 23864 --- [main] c.s.Springboot03LoggingApplicationTests  : Starting Springboot03LoggingApplicationTests on DESKTOP-TS2BL9L with PID 23864 (started by SY in D:\work\space\IdeaWorkSpace\SpringBoot\springboot-03-logging)
+2019-06-04 11:12:10.961 DEBUG 23864 --- [main] c.s.Springboot03LoggingApplicationTests  : Running with Spring Boot v1.5.21.RELEASE, Spring v4.3.24.RELEASE
+2019-06-04 11:12:10.962  INFO 23864 --- [main] c.s.Springboot03LoggingApplicationTests  : No active profile set, falling back to default profiles: default
+2019-06-04 11:12:11.215  INFO 23864 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1190200a: startup date [Tue Jun 04 11:12:11 CST 2019]; root of context hierarchy
+2019-06-04 11:12:15.823  INFO 23864 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1190200a: startup date [Tue Jun 04 11:12:11 CST 2019]; root of context hierarchy
+2019-06-04 11:12:15.983  INFO 23864 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-04 11:12:15.985  INFO 23864 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-04 11:12:16.078  INFO 23864 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-04 11:12:16.081  INFO 23864 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-04 11:12:16.191  INFO 23864 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-04 11:12:16.559  INFO 23864 --- [main] c.s.Springboot03LoggingApplicationTests  : Started Springboot03LoggingApplicationTests in 6.737 seconds (JVM running for 8.764)
+2019-06-04 11:12:16.661 TRACE 23864 --- [main] c.s.Springboot03LoggingApplicationTests  : 这是trace日志
+2019-06-04 11:12:16.662 DEBUG 23864 --- [main] c.s.Springboot03LoggingApplicationTests  : 这是debug日志
+2019-06-04 11:12:16.662  INFO 23864 --- [main] c.s.Springboot03LoggingApplicationTests  : 这是info日志
+2019-06-04 11:12:16.662  WARN 23864 --- [main] c.s.Springboot03LoggingApplicationTests  : 这是warn日志
+2019-06-04 11:12:16.663 ERROR 23864 --- [main] c.s.Springboot03LoggingApplicationTests  : 这是error日志
+2019-06-04 11:12:16.675  INFO 23864 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@1190200a: startup date [Tue Jun 04 11:12:11 CST 2019]; root of context hierarchy
