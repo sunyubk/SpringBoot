@@ -1,0 +1,8 @@
+1、classpath:/META-INF/resources 可以再resources下创建这个路径
+2、classpath:/resources/同上
+3、classpath:/static/同上
+4、classpath:/public/同上
+5、/:当前项目的根路径
+
+
+注main下面的java、resouces都是根路径classpath
