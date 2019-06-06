@@ -12,7 +12,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 /**
  * 扩展配置既保留了自动配置也能扩展配置
  * 可以使用WebMvcConfigurerAdapter来扩展Spring Mvc的功能
- * 就不用再为springmvc配置xml文件了
  *
  * @EnableWebMvc:全面接管SpringMVC,SpringBoot对SpringMVC的自动配置不要了,所有SpringMVC的自动配置全部失效
  */
