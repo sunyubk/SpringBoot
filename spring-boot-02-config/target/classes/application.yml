@@ -1,5 +1,5 @@
-server:
-  port: 8084
+#server:
+#  port: 8080
 #这一句是启用下面文档块的配置
 #spring:
 #  profiles:
