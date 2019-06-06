@@ -6,3 +6,7 @@
 
 
 注main下面的java、resouces都是根路径classpath
+
+完成这个项目：
+1、默认访问静态资源下的index，可以再controller中创建方法，返回值会映射到templates中寻找到index
+2、如果没有参数与数据等的时候只是要访问一个页面，就写一个controller的空方法并不好。可以用config去配置视图映射
